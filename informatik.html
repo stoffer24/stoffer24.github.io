@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Rock</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <!-- Navigation bar HTML -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">The Rock</a>
+            <a href="informatik.html" class="active">INF</a>
+            <a href="matematik.html">MAT</a>
+            <a href="dansk.html">DAN</a>
+            <a href="engelsk.html">ENG</a>
+            <a href="dotdotdot.html">...</a>
+            <a href="so.html">SO</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- Accordion HTML -->
+        <div class="content" id="informatik">
+            <div class="element left">
+                <h2>Informatik Noter</h2>
+                <button class="accordion">html og css </button>
+                <div class="panel">
+                <p>https://www.w3schools.com/html/html_intro.asp</p>
+                </div>
+
+                <button class="accordion">spiral modellen</button>
+                <div class="panel">
+                <p>Spiral modellen består af 3 faser <br>acces <br>design <br>build</p>
+                </div>
+                <button class="accordion">programmering</button>
+                <div class="panel">
+                <h3>Vaiabler og datatyper</h3>
+                <p>https://www.w3schools.com/js/js_datatypes.asp
+                    https://www.w3schools.com/js/js_variables.asp</p>
+                    <br>
+                    <h3>operatorer, if statements og funktioner</h3>
+                    <p>https://www.w3schools.com/js/js_assignment.asp
+                        https://www.w3schools.com/js/js_arithmetic.asp
+                        https://www.w3schools.com/js/js_comparisons.asp
+                        https://www.w3schools.com/js/js_if_else.asp
+                        https://www.w3schools.com/js/js_functions.asp</p>
+                        <br>
+                        <h3>Arrays og loops</h3>
+                        <p>https://www.w3schools.com/js/js_arrays.asp
+                            https://www.w3schools.com/js/js_loop_while.asp
+                            https://www.w3schools.com/js/js_loop_for.asp</p>
+                            <br>
+                            <h3>promt/alert/confirm</h3>
+                            <p>https://www.w3schools.com/js/js_popup.asp</p>
+
+                </div><button class="accordion">Javascript</button>
+                <div class="panel">
+                <p>Javascript er er dynamisk programmeringssprog. det bruges ofte til programmering at hjemmesider og websider. hvis implementeringer tillader klientside scripts at kommunikere med brugeren, kontrollere browseren, kommunikere asynkront, og ændre indholdet af HTML dokumenter.</p>
+                </div>
+            </div>
+
+            <div class="element left">
+                <h2>Informatik Projekter</h2>
+                <button class="accordion">Design af spil</button>
+                <div class="panel">
+                <p>mig og min gruppe valgte at lave et tidsfordrivsspil, hvor man skulle sortere bolde og så blev man belønnet med point for en masse variable. <img class="logbog-billede"src="images/informatik spil.jpg"></p>
+                </div>
+
+                
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
